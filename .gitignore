@@ -1,0 +1,74 @@
+# ============================
+# Python & ML Project Gitignore
+# ============================
+
+# --- OS files (macOS) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pdb
+*.pyd
+*.pyo
+
+# --- Byte-compiled / optimized / DLL files ---
+*.so
+*.dll
+*.a
+*.o
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# --- Logs ---
+*.log
+*.out
+*.err
+
+# --- PyTorch / TensorFlow models ---
+*.pt
+*.pth
+*.h5
+*.pb
+
+# But keep small demo models inside `results`
+!results/*.pt
+
+# --- Results / temp training files ---
+*.npy
+*.npz
+
+# --- IDE specific ---
+.vscode/
+.idea/
+
+# --- Data cache ---
+*.csv~
+*~
+*.bak
+
+# --- Large datasets (optional) ---
+# Uncomment if you don’t want to upload big data files:
+# data/*.csv
+
+# --- Build artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- Temporary files ---
+*.tmp
+*.temp
