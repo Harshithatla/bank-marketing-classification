@@ -59,7 +59,7 @@ bank-marketing-classification/
 │ └── roc_curve.png
 │
 └── report/
-└── Project_Report.docx (optional)
+└── Project_Report.docx
 
 ---
 
